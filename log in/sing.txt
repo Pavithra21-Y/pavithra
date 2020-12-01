@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>log in/sign up</title>
+</head>
+<body bgcolor="#d5bfdb">
+<form align="center" action="/action_page.php">
+First Name:
+<input type="text" name="firstname"><br><br>
+Last Name:
+<input type="text" name="lastname"><br><br>
+Age:
+<input type="number" name="age"><br><br>
+Gender:
+<input type="radio" id="g" name="gender" value="m">
+Male<br>
+<input type="radio" id="g" name="gender" value="f">
+Female<br>
+<input type="radio" id="g" name="gender" value="o">
+Others<br>
+email:
+<input type="email" id="email" name="email"><br><br>
+Phone Number:
+<input type="tel" id="phone" placeholder="10 digits" pattern="[0-9]{10}"><br><br>
+password:
+<input type="password" id="pwd" name="pwd"><br><br>
+Iam not a robert:
+<input type="checkbox" id="s"  name="s" value="s"><br>
+by signing up,I agree to terms and condition:
+<input type="checkbox" id="s"  name="s" value="s"><br><br>
+<input type="Submit" value="Submit">
+<input type="reset" value="reset">
+</form>
+</body>
+</html>
