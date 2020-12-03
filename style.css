@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin:20px;
+    background-color: blanchedalmond;
+
+}
+.main h6 {
+    background-color:rgb(168, 109, 109);
+    text-align:right;
+    font-size:25px;
+    font-style: oblique;
+
+}
+h1{
+    background-color:rgb(88, 38, 38);
+    color:white;
+    text-align:center;
+
+}
+li a.active{
+    background-color: thistle;
+}
+li a.hover{
+    background-color: tomato;
+}
+.block{
+    float:left;
+    width: 25%;
+    font-size:20px;
+}
+.pi{
+    align:right;
+}
+.bot{
+    float:left;
+    width:30%;
+    box-sizing: border-box;
+    
+}
+.loic{
+    width:100%;
+    height:200px;
+}
+
+.fix{
+    position: fixed;
+    top:500px;
+    vertical-align:2%;
+}
+    
+.con{
+    float:left;
+    width:20%;
+}
+.con-1{
+    float:left;
+    width:20%;
+    box-sizing: border-box;
+}
+.off{
+    border-style:double ;
+}
+.pox{
+    width:100%;
+    height:50px;
+}
